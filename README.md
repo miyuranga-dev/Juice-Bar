@@ -1,16 +1,96 @@
-# React + Vite
+# 🥤 Juice Bar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### *Scroll-Driven Animated Web Experience*
 
-Currently, two official plugins are available:
+<p align="center">
+  <a href="https://juice-bar-omega.vercel.app/"><b>Live Demo</b></a> •
+  <a href="https://github.com/miyuranga-dev/Juice-Bar"><b>Repository</b></a>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  Built with React • Tailwind CSS • GSAP
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Overview
 
-## Expanding the ESLint configuration
+A modern, animation-focused landing page that delivers a **smooth, scroll-based storytelling experience**.
+This project explores advanced UI motion techniques using **GSAP** integrated with React.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Core Features
+
+* 🎬 **GSAP-powered animations**
+* 🧠 **ScrollTrigger timelines & scrubbing**
+* 🔤 **SplitText character + line animations**
+* 🎥 **Scroll-synced video playback**
+* 📌 **Pinned sections & parallax motion**
+* ⚡ Fully responsive behavior
+
+---
+
+## 🎯 Animation Breakdown
+
+| Feature          | Description                                 |
+| ---------------- | ------------------------------------------- |
+| Text Reveal      | Character-based animation using SplitText   |
+| Scroll Scrubbing | Animations tied directly to scroll position |
+| Video Control    | Playback synced with scroll progress        |
+| Parallax Effects | Multi-layer motion for depth                |
+| Pinning          | Sections fixed during animation sequences   |
+
+---
+
+## 🛠️ Tech Stack
+
+```txt
+React.js
+Tailwind CSS
+GSAP (ScrollTrigger, SplitText)
+Vite
+Vercel
+```
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+git clone https://github.com/miyuranga-dev/Juice-Bar.git
+cd Juice-Bar
+npm install
+npm run dev
+```
+
+---
+
+## 🧠 Focus Areas
+
+* Advanced animation architecture with GSAP
+* Performance-conscious scroll interactions
+* Responsive animation tuning (mobile vs desktop)
+* Clean React integration using `useGSAP`
+
+---
+
+## 🚧 Roadmap
+
+* Add backend/API for dynamic content
+* Implement ordering/cart system
+* Improve animation accessibility
+* Optimize performance on low-end devices
+
+---
+
+## 👨‍💻 Author
+
+**Miyuranga**
+Undergraduate Software Engineer
+
+---
+
+<p align="center">
+  ⭐ If you like this project, consider giving it a star
+</p>
